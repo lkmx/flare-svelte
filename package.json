@@ -1,0 +1,49 @@
+{
+  "name": "@lkmx/flare-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup -c",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "storybook": "start-storybook -p 8080",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-svelte-csf": "^2.0.3",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/svelte": "^6.4.22",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tsconfig/svelte": "^2.0.1",
+    "babel-loader": "^8.2.5",
+    "css-loader": "5",
+    "rollup": "^2.70.2",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "sass": "^1.50.1",
+    "sass-loader": "10",
+    "style-loader": "2",
+    "svelte": "^3.47.0",
+    "svelte-check": "^2.2.7",
+    "svelte-loader": "^3.1.2",
+    "svelte-preprocess": "^4.10.6",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.5"
+  },
+  "dependencies": {
+    "@lkmx/flare": "file:../flare"
+  }
+}
