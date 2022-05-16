@@ -1,11 +1,10 @@
 # Flare-Svelte 
 - [Flare-Svelte](#flare-svelte)
 - [Documentation](#documentation)
-  - [SPA](#spa)
-    - [Prerequisites](#prerequisites)
-    - [Create project](#create-project)
-    - [Install Flare](#install-flare)
-    - [Create Page Component](#create-page-component)
+  - [Prerequisites](#prerequisites)
+  - [Create project](#create-project)
+  - [Install Flare](#install-flare)
+  - [Create Page Component](#create-page-component)
 - [Development](#development)
 
 
@@ -15,12 +14,9 @@ Flare-Svelte combines the core Flare features with the tooling that are tailored
 
 Flare-Svelte is built on top of Svelte
 
-## SPA
-
-Use [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) to quickly scaffold your project.
-
 ### Prerequisites
 
+- Vite >= 8.1.0
 - Node.js version >= 12.2.0 
 
 ### Create project
