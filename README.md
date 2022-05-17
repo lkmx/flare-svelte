@@ -12,7 +12,7 @@
 
 Flare-Svelte combines the core Flare features with the tooling that are tailored to Svelte developers.
 
-Flare-Svelte is built on top of Svelte
+Flare-Svelte is built on top of Svelte.
 
 ### Prerequisites
 
@@ -21,7 +21,7 @@ Flare-Svelte is built on top of Svelte
 
 ### Create project
 
-Init project
+Init project.
 
 ```
 yarn create vite my-svelte-app --template svelte
@@ -29,13 +29,13 @@ yarn create vite my-svelte-app --template svelte
 
 ### Install Flare
 
-Install dependency
+Install dependency.
 ```
 yarn add @lkmx/flare-svelte
 yarn install
 ```
 
-Import Flare components
+Import Flare components.
 
 ```
 <script>
@@ -45,7 +45,7 @@ Import Flare components
 
 ### Create page component
 
-Create component
+Create component.
 ```
   <SimpleLayout>
     <Page>
